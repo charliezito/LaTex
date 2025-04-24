@@ -1,0 +1,24 @@
+\documentclass{article}
+\usepackage{multirow}
+\begin{document}
+	\begin{table}[h!]
+		\begin{center}
+			\caption{Table with Student data}
+			\vspace{0.5cm}
+			\label{tab:table 1}
+			\begin{tabular}{|c|c|c|c|c|c|}
+				\hline
+				\multirow{2}{*}{S.no}&\multirow{2}{*}{USN}&\multirow{2}{*}{Student Name}&\multicolumn{3}{c|}{Marks}\\
+				\cline{4-6}
+				&&& Subject 1 & Subject 2 & Subject 3\\
+				\hline
+				1 & 4KV24CS400 & Max & 75 & 96 & 100\\
+				\hline
+				2 & 4KV24CS401 & Abi George & 44 & 93 & 78\\
+				\hline
+				3 & 4KV24CS402 & Lewis & 100 & 100 & 99\\
+				\hline
+			\end{tabular}
+		\end{center}
+	\end{table}
+\end{document}
